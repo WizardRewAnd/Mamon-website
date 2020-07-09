@@ -1,0 +1,158 @@
+.header {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    max-width: 1180px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    box-sizing: border-box;
+
+}
+.nav-menu {
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+    
+}
+
+.nav-menu-unit-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #2b2b2b;
+    padding: 5px 13px 5px 13px;
+    margin-left: 30px;
+    background-color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.header-logo-link {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+    background-image: url("components_/mamon-logo.svg");
+}
+
+.logo-text { 
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 24px; 
+    color: #202020;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.nav-menu-unit-link:hover {
+    background-color: #5528FF;
+    padding: 3px 13px 5px 13px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.page-top {
+    border-bottom: #C2C2C2 1px solid;
+    padding: 0 15px 40px 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1180px;
+
+}
+
+.page {
+    padding: 40px 15px 40px 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1180px;
+}
+
+.page-title-second {
+    position: absolute;
+    top: 770px;
+    font-size: 14px;
+    font-weight: 300px;
+    background-color: #fff;
+    padding: 5px 15px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #C2C2C2;
+}
+
+.page-button { 
+    background-color: #5528FF;
+    border-radius: 10px;
+    border: none;   
+    cursor: pointer;
+    padding: 13px 58px 13px 58px;
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 110px;
+}
+
+.page-title { 
+    padding: 117px 0 35px 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.page-text {
+    width: 700px;
+    font-size: 32px;
+    color: #4F4F4F;
+    font-family: sans-serif;
+    line-height: 1.5;
+    padding-bottom: 70px;
+}
+
+.services {
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+
+}
+
+.services-item {
+    padding-top: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.service-item-pic-container {
+    flex-basis: 120px;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.services-item-info {
+    flex-basis: calc(100% - 120px); 
+}
+
+.services-item-info {
+    flex-basis: calc(100% - 120px);
+}
+
+.services-item-title {
+    font-size: 28px;
+    line-height: 32px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.services-item-text {
+    padding-top: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B2B2B2;
+}
+
