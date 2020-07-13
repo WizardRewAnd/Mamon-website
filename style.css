@@ -151,3 +151,15 @@
   line-height: 16px;
   color: #b2b2b2;
 }
+
+.page-title-third {
+  position: absolute;
+  top: 1279px;
+  font-size: 14px;
+  font-weight: 300px;
+  background-color: #fff;
+  padding: 5px 15px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #c2c2c2;
+}
