@@ -200,3 +200,8 @@
   line-height: 16px;
   color: #c2c2c2;
 }
+
+.team-item-pic {
+  border-radius: 100%; /* Радиус скругления */
+  box-shadow: 0 0 7px #666; /* Параметры тени */
+}
