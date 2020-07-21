@@ -202,7 +202,6 @@
 }
 
 .team-item-pic {
-  display: inline-block;
   border-radius: 100%; /* Радиус скругления */
   box-shadow: 0 0 7px #666; /* Параметры тени */
 }
@@ -217,7 +216,24 @@
 }
 
 .team-item {
+  text-align: center;
+  align-items: center;
   justify-content: center;
-  display: flex;
-  flex-direction: column;
+}
+
+.item-text-title {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.item-text {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b2b2b2;
 }
