@@ -11,6 +11,7 @@
 .page-wrapper {
   box-sizing: border-box;
 }
+
 .nav-menu {
   display: flex;
   justify-content: start;
