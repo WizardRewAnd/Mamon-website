@@ -175,7 +175,28 @@
 }
 
 .client-logo {
+  cursor: pointer;
   padding: 20px 0 20px 0;
   display: block;
   margin: auto;
+}
+
+.page-down {
+  border-bottom: #c2c2c2 1px solid;
+  padding: 0 15px 40px 15px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1180px;
+}
+
+.page-title-fourth {
+  position: absolute;
+  top: 1707px;
+  font-size: 14px;
+  font-weight: 300px;
+  background-color: #fff;
+  padding: 5px 15px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #c2c2c2;
 }
