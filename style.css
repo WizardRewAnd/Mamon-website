@@ -238,3 +238,8 @@
   line-height: 16px;
   color: #b2b2b2;
 }
+
+.footer {
+  background-color: #f7f7f7;
+  height: 100px;
+}
