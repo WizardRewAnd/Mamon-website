@@ -205,3 +205,12 @@
   border-radius: 100%; /* Радиус скругления */
   box-shadow: 0 0 7px #666; /* Параметры тени */
 }
+
+.team {
+  padding-top: 50px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3);
+  max-width: 1180px;
+}
