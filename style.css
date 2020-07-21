@@ -242,4 +242,6 @@
 .footer {
   background-color: #f7f7f7;
   height: 100px;
+  max-width: 100%;
+  margin: 0 auto;
 }
