@@ -202,6 +202,7 @@
 }
 
 .team-item-pic {
+  display: inline-block;
   border-radius: 100%; /* Радиус скругления */
   box-shadow: 0 0 7px #666; /* Параметры тени */
 }
@@ -213,4 +214,10 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3);
   max-width: 1180px;
+}
+
+.team-item {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
