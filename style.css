@@ -264,3 +264,10 @@
   height: 58px;
   background-image: url("components_/mamon-logo.svg");
 }
+
+.footer-link-pic {
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  margin-top: 25px;
+}
